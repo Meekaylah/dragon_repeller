@@ -103,7 +103,7 @@ button3.innerText = location["button text"][2];
 button1.onclick = location["button functions"][0];
 button2.onclick = location["button functions"][1];
 button3.onclick = location["button functions"][2];
-text.innerText = location.text;
+text.innerHTML = location.text;
 }
 
 function goTown() {
